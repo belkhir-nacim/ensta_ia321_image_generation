@@ -31,6 +31,8 @@
 - (12): ConvTranspose2d(64, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
 - (13): Tanh()
 
+![alt text](DCGAN_generator.png)
+
 La première couche consiste en le reshape du vecteur z ((100,1) -> (1,1,100)). Puis, on applique une convolution transposée avec aucun padding, ni stride (=1) et un kernel de taille 4.
 
 Ensuite, pour transformer un input de dimensions (4,4,1024) en un output de dimensions (64,64,3) :
