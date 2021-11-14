@@ -12,24 +12,22 @@
 **Dataset** : photos de célébrités (Celeb-A Faces dataset)
 
 **Générateur** :
-- (0): ConvTranspose2d(100, 512, kernel_size=(4, 4), stride=(1, 1), bias=False)
-- (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-- (2): ReLU(inplace=True)
-
-- (3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
-- (4): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-- (5): ReLU(inplace=True)
-
-- (6): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
-- (7): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-- (8): ReLU(inplace=True)
-
-- (9): ConvTranspose2d(128, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
-- (10): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-- (11): ReLU(inplace=True)
-
-- (12): ConvTranspose2d(64, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
-- (13): Tanh()
+| Id    | Couches                                                                                   |
+| :---: | :---                                                                                     |
+| 0     | ConvTranspose2d(100, 512, kernel_size=(4, 4), stride=(1, 1), bias=False)                 |
+| 1     | BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)         |
+| 2     | ReLU(inplace=True)                                                                       |
+| 3     | ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False) |
+| 4     | BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)         |
+| 5     | ReLU(inplace=True)                                                                       |
+| 6     | ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False) |
+| 7     | BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)         |
+| 8     | ReLU(inplace=True)                                                                       |
+| 9     | ConvTranspose2d(128, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)  |
+| 10    | BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)          |
+| 11    | ReLU(inplace=True)                                                                       |
+| 12    | ConvTranspose2d(64, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)    |
+| 13    | Tanh()                                                                                   |
 
 ![alt text](DCGAN_generator.png)
 
@@ -40,23 +38,22 @@ Ensuite, pour transformer un input de dimensions (4,4,1024) en un output de dime
 - on augmente la taille des autres dimensions (multiplie par 2 à chaque couche) en utilisant des convolutions transposée
 
 **Discriminateur** :
-- (0): Conv2d(3, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
-- (1): LeakyReLU(negative_slope=0.2, inplace=True)
 
-- (2): Conv2d(64, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
-- (3): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-- (4): LeakyReLU(negative_slope=0.2, inplace=True)
-
-- (5): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
-- (6): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-- (7): LeakyReLU(negative_slope=0.2, inplace=True)
-
-- (8): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)
-- (9): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
-- (10): LeakyReLU(negative_slope=0.2, inplace=True)
-
-- (11): Conv2d(512, 1, kernel_size=(4, 4), stride=(1, 1), bias=False)
-- (12): Sigmoid()
+| Id    | Couches                                                                                   |
+| :---: | :---                                                                                     |
+| 0     | Conv2d(3, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)             |
+| 1     | LeakyReLU(negative_slope=0.2, inplace=True)                                              |
+| 2     | Conv2d(64, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)           |
+| 3     | BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)         |
+| 4     | LeakyReLU(negative_slope=0.2, inplace=True)                                              |
+| 5     | Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)          |
+| 6     | BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)         |
+| 7     | LeakyReLU(negative_slope=0.2, inplace=True)                                              |
+| 8     | Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1), bias=False)          |
+| 9     | BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)         |
+| 10    | LeakyReLU(negative_slope=0.2, inplace=True)                                              |
+| 11    | Conv2d(512, 1, kernel_size=(4, 4), stride=(1, 1), bias=False)                            |
+| 12    | Sigmoid()                                                                                |
 
 D’après le papier du DCGAN, c'est une bonne pratique d'utiliser la strided convolution plutôt que le pooling pour le subsampling car cela permet au réseau d'apprendre sa propre fonction de pooling. De plus, les fonctions de batch norm et de leaky ReLU favorisent une descente de gradient efficace, ce qui est essentiel pour le processus d'apprentissage de G et D.
 
