@@ -54,11 +54,11 @@ Les rendus attendus sont :
 doit montrer l’évolution des découvertes dans la recherche
 choix de l’algo (difficile) à implémenter
 
-Voir les sections [Bibliographie](ensta_ia321_image_generation/bibliographie/) et [Blog](ensta_ia321_image_generation/blog/) du GitHub.
+Voir les sections [Bibliographie](/bibliographie/) et [Blog](/blog/) du GitHub.
 
 ## Premières implémentations
 
 GAN :
 - DCGAN
 
-Voir la section [Implementations](ensta_ia321_image_generation/implementations/) du GitHub.
+Voir la section [Implementations](/implementations/) du GitHub.
