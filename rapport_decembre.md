@@ -45,13 +45,8 @@ Les rendus attendus sont :
 
 ## Recherches bibliographiques
 
-- https://www.inria.fr/fr/xgan-action-exploratoire-videos-gan-ia
-- https://github.com/nashory/gans-awesome-applications
-- https://towardsdatascience.com/what-is-transposed-convolutional-layer-40e5e6e31c11
-- Goodfellow -  Generative Adversarial Nets (2014) : invention des GANs
-- Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks (DCGAN)
-
 doit montrer l’évolution des découvertes dans la recherche
+
 choix de l’algo (difficile) à implémenter
 
 Voir les sections [Bibliographie](/bibliographie/) et [Blog](/blog/) du GitHub.
