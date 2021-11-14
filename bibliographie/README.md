@@ -1,11 +1,16 @@
 # Bibliographie
 
+## Général
+
+
 ## GAN
 - Papier : [Generative Adversarial Nets - Ian J. Goodfellow (2014)](NIPS-2014-generative-adversarial-nets-Paper.pdf)
 - Papier : [Unsupervised representation learning with deep convolutional generative adversarial networks - Alec Radford & Luke Metz (2016)](DCGAN_paper.pdf)
 - Tutoriel : [Tutoriel pytorch DCGAN](https://pytorch.org/tutorials/beginner/dcgan_faces_tutorial.html#introduction)
 - Blog : [Lilian Weng](https://lilianweng.github.io/lil-log/2017/08/20/from-GAN-to-WGAN.html)
 - Blog : [Generator : Transposed convolutional layer](https://towardsdatascience.com/what-is-transposed-convolutional-layer-40e5e6e31c11)
+- GitHub : [Etat de l'art sur les modèles génératifs d'images](https://github.com/nashory/gans-awesome-applications)
+- News : [XGAN - Apprentissage d'une représentation interprétable de vidéos générées par un GAN](https://www.inria.fr/fr/xgan-action-exploratoire-videos-gan-ia)
 
 ## VAE
 - Blog : [Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)
