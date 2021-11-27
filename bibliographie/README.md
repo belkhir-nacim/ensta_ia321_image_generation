@@ -14,6 +14,7 @@
 
 ## VAE
 - Blog : [Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)
+- Paper : [Auto-Encoding Variational Bayes - Diederik P. Kingma, Max Welling (2014)](auto-encoding-variational-bayes.pdf)
 
 ## Flow-based models
 - Blog : [Lilian Weng](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html)
