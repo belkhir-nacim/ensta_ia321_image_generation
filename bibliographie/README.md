@@ -14,7 +14,17 @@
 
 ## VAE
 - Blog : [Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html)
-- Paper : [Auto-Encoding Variational Bayes - Diederik P. Kingma, Max Welling (2014)](auto-encoding-variational-bayes.pdf)
+- Papier : [Auto-Encoding Variational Bayes - Diederik P. Kingma, Max Welling (2014)](auto-encoding-variational-bayes.pdf)
+- Papier : [Reducing the Dimensionality of Data with Neural Networks](Autoencoders.pdf)
+- Papier : [Extracting and Composing Robust Features with Denoising Autoencoders](Denoising autoencoders.pdf)
+- Papier : [k-Sparse Autoencoders](k-Sparse Autoencoders.pdf)
+- Papier : [Contractive Auto-Encoders: Explicit Invariance During Feature Extraction](Contractive Auto-Encoders.pdf)
+- Papier : [Auto-Encoding Variational Bayes](VAE.pdf)
+- Papier : [Learning Structured Output Representation using Deep Conditional Generative Models](CVAE.pdf)
+- Papier : [Beta-VAE: learning basic visual concepts with a constrained variational framework](Beta-VAE.pdf)
+- Papier : [Vector Quantised-Variational AutoEncoder](VQ-VAE.pdf)
+- Papier : [Generating Diverse High-Fidelity Images with VQ-VAE-2](VQ-VAE-2.pdf)
+- Papier : [Temporal Difference VAE](TD-VAE.pdf)
 
 ## Flow-based models
 - Blog : [Lilian Weng](https://lilianweng.github.io/lil-log/2018/10/13/flow-based-deep-generative-models.html)
