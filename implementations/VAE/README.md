@@ -46,7 +46,7 @@ Générateur : PixelCNN et Transformer GPT2
 
 Datasets : CIFAR10 et Stanford Dogs
 
-Frameworks :
+Frameworks : pytorch
 
 Papier scientifique : _Generating Diverse High-Fidelity Images with VQ-VAE-2_, Ali Razavi et al. (2019). [Lien vers le papier](https://arxiv.org/abs/1906.00446)
 
