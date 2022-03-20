@@ -21,3 +21,5 @@ Une application de ce travail pourrait être la data augmentation pour servir de
 Voici une présentation schématique des architectures des modèles que nous avons étudiés :
 
 ![alt text](generative_models_types.PNG)
+
+Source de l'image : (Lilian Weng's Blog) [https://lilianweng.github.io/posts/2021-07-11-diffusion-models/]
