@@ -36,12 +36,28 @@ D’après le papier du DCGAN, c'est une bonne pratique d'utiliser la strided co
 
 # StyleGAN
 
-Fichier : _Mini_StyleGAN.ipynb_
+Fichier : _Mini_StyleGAN+FID.ipynb_
 
 Modèle : StyleGAN
 
 Dataset : CIFAR10
 
-Framework : 
+Framework :  Pytorch
 
-Papier scientifique :
+Papier scientifique : A Style-Based Generator Architecture for Generative Adversarial Networks:
+Tero Karras, Samuli Laine, Timo Aila
+[Lien vers le papier](https://arxiv.org/abs/1812.04948)
+
+
+
+
+**Générateur** :
+Le Générateur consiste à 4 bloques, ou chacun parmi eux génére une image de taille 4,8,16,32.
+Chaque bloque consiste en une (convolution->injection de bruit-> leakyRelu -> AdaIN) deux fois, chaque bloque est suivie d'une couche RGB qui tronsforme l'output de ce bloque en une image RGB
+
+
+**Critique** :
+Le Critique consiste à 4 bloques, ou chacun parmi eux clasifie une image de taille 32,16,8,4(image miroir du générateur.
+Chaque bloque consiste en deux convolution plus une couche from_RGB qui re-transforme l'image donné en un tenseur.
+
+
