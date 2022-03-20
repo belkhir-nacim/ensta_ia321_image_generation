@@ -61,3 +61,33 @@ Le Critique consiste à 4 bloques, ou chacun parmi eux clasifie une image de tai
 Chaque bloque consiste en deux convolution plus une couche from_RGB qui re-transforme l'image donné en un tenseur.
 
 
+
+# WGAN ,Conditional GAN
+
+Fichier : _WGAN-ConditionalGAN.ipynb_
+
+Modèle : WGAN et génération conditionnelle
+
+Dataset : CIFAR10
+
+Framework :  Pytorch
+
+Papiers scientifiques : 
+- _Conditional Generative Adversarial Nets_, Mehdi Mirza, Simon Osindero. [Lien vers le papier](https://arxiv.org/abs/1411.1784)
+- _Wasserstein GAN_, Martin Arjovsky, Soumith Chintala, Léon Bottou. [Lien vers le papier](https://arxiv.org/abs/1701.07875)
+
+
+**Générateur** :
+Générateur simple qui consiste à empiler des block de convolution + batchnorm + upsampling
+
+
+**Discriminateur** :
+Discriminateur simple qui consiste à empiler des block de convolution + batchnorm 
+
+
+
+
+Cette architecture a été développée simplement pour se familiariser avec les GAN, et même si ses résultats étaient convenable, elle a été abandonnée pour se concentrer sur le développement de mon objectif principal de ce projet, un mini-SyleGAN qui peut être entrainé sur un petit GPU.
+
+
+
