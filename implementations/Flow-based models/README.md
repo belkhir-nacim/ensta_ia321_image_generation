@@ -4,12 +4,11 @@ Voici une brève présentation des codes contenus dans ce dossier :
 
 ## nom_model
 
-Fichier : _file.ipynb_
 
-Modèle :
+Modèle : Sylvester Normalizing Flows for Variational Inference
 
-Dataset :
+Dataset : MNIST/ Freyfaces
 
-Frameworks :
+Frameworks : 
 
-Papier scientifique :
+Papier scientifique : https://arxiv.org/pdf/1803.05649v2.pdf
