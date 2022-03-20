@@ -2,6 +2,8 @@
 
 # DCGAN
 
+Fichier : _DCGAN.ipynb_
+
 Modèle : DCGAN
 
 Dataset : Celeba
@@ -33,3 +35,13 @@ D’après le papier du DCGAN, c'est une bonne pratique d'utiliser la strided co
 
 
 # StyleGAN
+
+Fichier : _Mini_StyleGAN.ipynb_
+
+Modèle : StyleGAN
+
+Dataset : CIFAR10
+
+Framework : 
+
+Papier scientifique :
