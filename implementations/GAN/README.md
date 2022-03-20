@@ -72,13 +72,9 @@ Dataset : CIFAR10
 
 Framework :  Pytorch
 
-Papier scientifique :Conditional Generative Adversarial Nets
-Mehdi Mirza, Simon Osindero
-[Lien vers le papier](https://arxiv.org/abs/1411.1784)
-
-Wasserstein GAN
-Martin Arjovsky, Soumith Chintala, Léon Bottou
-[Lien vers le papier](https://arxiv.org/abs/1701.07875)
+Papiers scientifiques : 
+- _Conditional Generative Adversarial Nets_, Mehdi Mirza, Simon Osindero. [Lien vers le papier](https://arxiv.org/abs/1411.1784)
+- _Wasserstein GAN_, Martin Arjovsky, Soumith Chintala, Léon Bottou. [Lien vers le papier](https://arxiv.org/abs/1701.07875)
 
 
 **Générateur** :
