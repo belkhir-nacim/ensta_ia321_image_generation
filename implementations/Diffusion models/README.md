@@ -2,14 +2,14 @@
 
 Voici une brève présentation des codes contenus dans ce dossier :
 
-## nom_model
+## DDPM
 
 Fichier : _diffusion.ipynb_
 
-Modèle :
+Modèle : DDPM (Denoising Diffusion Probabilistic Model)
 
 Dataset : CIFAR10
 
-Frameworks : Tensorflow
+Frameworks : Tensorflow, Keras
 
-Papier scientifique : __ . Lien vers 
+Papier scientifique : _Denoising Diffusion Probabilistic Models_, Jonathan Ho, Ajay Jain, Pieter Abbeel (2020). [Lien vers le papier](https://arxiv.org/abs/2006.11239)
