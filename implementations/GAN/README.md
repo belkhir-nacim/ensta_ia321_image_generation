@@ -91,7 +91,7 @@ Discriminateur simple qui consiste à empiler des block de convolution + batchno
 
 
 
-cette architecture a été développée simplement pour se familiariser avec les GAN, et même si ses résultats étaient convenable, elle a été abandonnée pour se concentrer sur le développement de mon objectif principal de ce projet, un mini-SyleGAN qui peut être entrainé sur un petit GPU.
+Cette architecture a été développée simplement pour se familiariser avec les GAN, et même si ses résultats étaient convenable, elle a été abandonnée pour se concentrer sur le développement de mon objectif principal de ce projet, un mini-SyleGAN qui peut être entrainé sur un petit GPU.
 
 
 
