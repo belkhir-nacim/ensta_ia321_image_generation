@@ -22,4 +22,4 @@ Voici une présentation schématique des architectures des modèles que nous avo
 
 ![alt text](generative_models_types.PNG)
 
-Source de l'image : (Lilian Weng's Blog) [https://lilianweng.github.io/posts/2021-07-11-diffusion-models/]
+Source de l'image : [Lilian Weng's Blog](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
