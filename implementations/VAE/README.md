@@ -14,8 +14,9 @@ Frameworks : pytorch, pytorch lightning
 
 Papier scientifique : _Auto-Encoding Variational Bayes_, Diederik P. Kingma, Max Welling (2014) [Lien vers le papier](https://arxiv.org/abs/1312.6114)
 
-Ce code est fonctionnel et permet d'entrainer un VAE et de générer de nouvelles images à partir des images données en entrée.
-Néanmoins, il est possible que certaines erreurs de compatibilité entre les frameworks _pytorch-lightning_ et _pytorch-lightning-bolts_ apparaissent selon l'environnement que vous utilisez.
+Ce code est fonctionnel et permet d'entrainer un VAE et de générer de nouvelles images à partir des images données en entrée. Les outputs du notebook correspondent à un entrainement de 10 epochs (durée : 16 minutes). Vous pouvez retrouver les images générées lors d'un entrainement de 30 epochs (durée : 2h40) dans le rapport.
+
+Il est possible que certaines erreurs de compatibilité entre les frameworks _pytorch-lightning_ et _pytorch-lightning-bolts_ apparaissent selon l'environnement que vous utilisez.
 
 ## VQ-VAE
 
