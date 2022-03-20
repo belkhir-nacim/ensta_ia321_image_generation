@@ -9,6 +9,4 @@ Modèle : Sylvester Normalizing Flows for Variational Inference
 
 Dataset : MNIST/ Freyfaces
 
-Frameworks : 
-
 Papier scientifique : https://arxiv.org/pdf/1803.05649v2.pdf
