@@ -1,6 +1,6 @@
 # Implémentation d'un modèle de diffusion
 
-Voici une brève présentation des codes contenus dans ce dossier :
+Voici une brève présentation du code contenu dans ce dossier :
 
 ## DDPM
 
